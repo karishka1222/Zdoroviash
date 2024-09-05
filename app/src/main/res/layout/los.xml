@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ImageView
+        android:id="@+id/photo"
+        android:layout_width="300dp"
+        android:layout_height="450dp"
+        android:layout_gravity="center"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+    <TextView
+        android:id="@+id/ekip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Экипировка"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:layout_marginTop="25dp"
+        android:textStyle="bold"
+        android:textColor="#191B24"
+        android:fontFamily="@font/montserrat"
+        app:layout_constraintTop_toTopOf="@id/photo"/>
+
+    <TextView
+        android:id="@+id/eq"
+        android:layout_height="wrap_content"
+        android:layout_width="240dp"
+        android:layout_gravity="center"
+        app:layout_constraintTop_toBottomOf="@id/ekip"
+        app:layout_constraintEnd_toEndOf="@id/photo"
+        app:layout_constraintStart_toStartOf="@id/photo"
+        android:textSize="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="30dp"
+        android:textColor="#191B24"
+        android:fontFamily="@font/montserrat"
+
+        />
+
+    <ImageButton
+        android:id="@+id/btn1"
+        android:layout_width="80dp"
+        android:layout_height="60dp"
+        android:background="@drawable/arrow_back_two"
+        android:layout_marginBottom="20dp"
+        android:layout_marginEnd="20dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@id/photo"
+        app:layout_constraintEnd_toEndOf="@id/photo"
+        />
+    
+
+</androidx.constraintlayout.widget.ConstraintLayout>
