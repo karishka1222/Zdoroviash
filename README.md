@@ -2,9 +2,11 @@
 
 _Read this in other language: [English](README.md), [Русский](README.ru.md)_
 
-## Project Description
+## Achievements
 
-This project was created for the final stage of the international hackathon IT-Education Hack.
+🥈 This project was created for the final stage of the international hackathon IT-Education Hack and took 2nd place.
+
+## Project Description
 
 This application is designed to display graphical recommendations on a person's equipment, depending on the sport they choose. On the main screen, the user can see the weather at the current location, an animated logo of the Ministry of Sports of the Nizhny Novgorod region, a list of equipment for the selected sport and clothing advice depending on the type of weather at the moment.
 
