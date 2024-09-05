@@ -19,6 +19,16 @@ This application is designed to display graphical recommendations on a person's 
 
 <img src="app/src/main/res/drawable/demo/zdoroviash.gif" width="200" />
 
+## Authors
+
+### **🍓Team SOT🍓**
+
+Team members:
+* Arina Zimina - developer, teamleader
+* Karina Siniatullina - developer
+* Julia Chezryakova - editor
+* Irina Kolobova - designer
+
 ## Frameworks and technologies used
 
 <img src="https://img.shields.io/badge/kotlin-%230095D5.svg?&style=for-the-badge&logo=kotlin&logoColor=white"/>
